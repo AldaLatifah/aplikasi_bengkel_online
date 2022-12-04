@@ -65,18 +65,16 @@ class ProfileActivity : AppCompatActivity() {
 
     private fun setupAction(){
         binding.apply {
-            changeProfile.cardViewProfile.setOnClickListener{
-                val person = intent.getParcelableExtra<User>(EXTRA_USER) as User
-                val intent = Intent(it.context, ChangeProfileActivity::class.java)
-                intent.putExtra(ChangeProfileActivity.EXTRA_USER,person )
-                it.context.startActivity(intent)
-            }
             termCondition.cardViewProfile.setOnClickListener{
                 val intent = Intent(this@ProfileActivity, TermConditionActivity::class.java)
                 startActivity(intent)
             }
             privacyPolicy.cardViewProfile.setOnClickListener{
                 val intent = Intent(this@ProfileActivity, PrivacyPolicyActivity::class.java)
+                startActivity(intent)
+            }
+            contactUs.cardViewProfile.setOnClickListener {
+                val intent = Intent(this@ProfileActivity, ContactUsActivity::class.java)
                 startActivity(intent)
             }
         }

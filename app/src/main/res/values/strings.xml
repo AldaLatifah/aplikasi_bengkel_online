@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Aplikasi O Bengkel</string>
 
+    <string name="name_application">O-Bengkel</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="confirm">Konfirmasi Password</string>
@@ -96,4 +97,9 @@
     <!--Privacy Policy Menu-->
     <string name="privacy_policy_title">Kebijakan Privasi</string>
     <string name="privacy_policy_content">Syarat &amp; Ketentuan yang ditetapkan di bawah ini mengatur pemakaian jasa yang ditawarkan oleh PT Otoklix Indonesia terkait penggunaan situs www.otoklix.com. Pengguna disarankan membaca dengan saksama karena dapat berdampak kepada hak dan kewajiban Pengguna di bawah hukum.Dengan mendaftar dan/atau menggunakan situs www.otoklix.com, maka Pengguna dianggap telah membaca, mengerti, memahami, dan menyetujui semua isi dalam Syarat &amp; Ketentuan. Syarat &amp; Ketentuan ini merupakan bentuk kesepakatan yang dituangkan dalam sebuah perjanjian yang sah antara Pengguna dengan Otoklix. Jika Pengguna tidak menyetujui salah satu, sebagian, atau seluruh isi Syarat &amp; Ketentuan ini, maka Pengguna tidak diperkenankan untuk menggunakan layanan di</string>
+
+    <!--Contact Us Menu-->
+    <string name="email_contact_us">obengkel@gmail.com</string>
+    <string name="instagram_contact_us">o.bengkel</string>
+    <string name="telp_contact_us">+628910281910</string>
 </resources>

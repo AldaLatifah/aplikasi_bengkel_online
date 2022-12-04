@@ -38,10 +38,6 @@ object Data {
 
     fun getProfileCategory() : Map<String, Profile>{
         return mapOf(
-            CHANGE_PROFILE_MENU to Profile(
-                thumbnail = R.drawable.ic_baseline_profile_edit,
-                title = Strings.get(R.string.profile_edit)
-            ),
             TERM_CONDITIONS_MENU to Profile(
                 thumbnail = R.drawable.ic_baseline_term_condition,
                 title = Strings.get(R.string.term_condition)

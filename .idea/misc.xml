@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_baseline_alternate_email_24.xml" value="0.1615" />
         <entry key="app/src/main/res/drawable-v24/ic_baseline_build_24.xml" value="0.1365" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_contact_phone_24.xml" value="0.1695" />
         <entry key="app/src/main/res/drawable-v24/ic_baseline_exit_to_app_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_baseline_profile_edit.xml" value="0.1205" />
         <entry key="app/src/main/res/drawable-v24/ic_baseline_reorder_24.xml" value="0.1205" />
@@ -17,6 +18,7 @@
         <entry key="app/src/main/res/layout/activity_article.xml" value="0.16927083333333334" />
         <entry key="app/src/main/res/layout/activity_change_profile.xml" value="0.14895833333333333" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_contact_us.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_crane.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_create_crane.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_create_repair.xml" value="0.1" />
