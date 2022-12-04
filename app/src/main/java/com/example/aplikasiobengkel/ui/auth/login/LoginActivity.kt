@@ -67,11 +67,6 @@ class LoginActivity : AppCompatActivity() {
                 binding.txtEmail.error = "Username not found"
             }
         }
-
-        binding.TextView1.setOnClickListener{
-            val forgetIntent = Intent(this, ForgetPasswordActivity::class.java)
-            startActivity(forgetIntent)
-        }
         binding.buttonRegister.setOnClickListener {
             val registerIntent = Intent(this, RegisterActivity::class.java)
             startActivity(registerIntent)

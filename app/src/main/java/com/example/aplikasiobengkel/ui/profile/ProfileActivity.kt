@@ -57,7 +57,6 @@ class ProfileActivity : AppCompatActivity() {
 
     private fun setupLayout() {
         binding.apply {
-            setupModuleCard(Data.CHANGE_PROFILE_MENU, changeProfile)
             setupModuleCard(Data.TERM_CONDITIONS_MENU, termCondition)
             setupModuleCard(Data.PRIVACY_POLICY_MENU, privacyPolicy)
             setupModuleCard(Data.CONTACT_US_MENU, contactUs)
