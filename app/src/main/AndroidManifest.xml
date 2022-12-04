@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aplikasiobengkel">
+
+    <application
+        android:name=".utils.App"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiOBengkel"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.chat.DetailChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.history.DetailRepairHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.history.DetailCraneHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.forgetpassword.ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.update.ChangeProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.chat.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.TermConditionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.promo.PromoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.history.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.crane.CreateCraneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.crane.CraneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.repair.CreateRepairActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.service.repair.RepairActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.register.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ui.auth.login.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

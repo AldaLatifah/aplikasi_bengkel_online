@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Aplikasi O Bengkel</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm">Konfirmasi Password</string>
+    <string name="username">Username</string>
+    <string name="name">Nama</string>
+    <string name="telp">No Telepon</string>
+    <string name="login">Masuk</string>
+    <string name="signup">Daftar</string>
+    <string name="do_not_have_account">Belum punya akun?</string>
+    <string name="have_account">Sudah Punya Akun?</string>
+    <string name="welcome_capt">Selamat Datang Kembali</string>
+    <string name="add_welcome_capt">Semoga Harimu Menyenangkan</string>
+    <string name="forget_password">Lupa Sandi ?</string>
+
+    <!--String Menu-->
+    <string name="repair_service">Jasa Bengkel</string>
+    <string name="crane_service">Jasa Derek</string>
+    <string name="profile_menu">Profile</string>
+    <string name="chat_menu">Chat</string>
+    <string name="history_menu">Riwayat</string>
+    <string name="promo_menu">Promo</string>
+    <string name="article_menu">Artikel Terkait</string>
+
+    <!--Repair Crane Form Menu-->
+    <string name="data_kendaraan">1. Data Kendaraan</string>
+    <string name="data_jadwal">2. Data Jadwal</string>
+    <string name="data_diri">3. Data Diri</string>
+    <string name="data_alamat">2. Data Lokasi</string>
+    <string name="data_montir">4. Data Montir</string>
+    <string name="data_bengkel">3. Data Bengkel</string>
+    <string name="merk_brand_mobil">Merk Brand Mobil</string>
+    <string name="type_mobil">Type Mobil</string>
+    <string name="varian_mobil">Varian Mobil</string>
+    <string name="tahun_kendaraan">Tahun Kendaraan</string>
+    <string name="plat">Plat Kendaraan</string>
+    <string name="keluhan">Keluhan</string>
+    <string name="tanggal">Pilih Tanggal</string>
+    <string name="waktu">Pilih Waktu</string>
+    <string name="alamat">Alamat</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="lokasi_tujuan">Lokasi Tujuan</string>
+    <string name="keterangan">Keterangan Tambahan</string>
+    <string name="telp_bengkel">Telp Bengkel</string>
+    <string name="telp_montir">Telp Montir</string>
+    <string name="chat_button">Chat</string>
+    <string name="kirim">Kirim</string>
+    <string name="delete">Hapus</string>
+    <string name="message_delete">Yakin ingin menghapus chat ini?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <!--History Menu-->
+    <string name="on_progress">Jasa Bengkel</string>
+    <string name="completed">Jasa Derek</string>
+
+    <!--Profile Menu-->
+    <string name="dummy_name">Alda Latifah</string>
+    <string name="dummy_email">aldaa@gmail.com</string>
+    <string name="dummy_telp">+918228920</string>
+    <string name="profile_edit">Edit Profil</string>
+    <string name="term_condition">Syarat dan Ketentuan</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+    <string name="contact_us">Hubungi Kami</string>
+
+    <!--Article Menu-->
+    <string name="article_title">Digitalisasi Otomotif</string>
+    <string name="article_content">Lihat Selengkapnya...</string>
+
+    <!--Promo Menu-->
+    <string name="promo_title">Promo 50%</string>
+    <string name="promo_content">Syarat Ketentuan bla bla bla...</string>
+
+
+    <!--Mechanic Dummy Data-->
+    <string name="detail">Pilih Montir</string>
+    <string name="mechanic_name">Montir Riswan</string>
+    <string name="mechanic_location">Area Jatinangor &amp; Bandung</string>
+    <string name="mechanic_age">25 Tahun</string>
+    <string name="mechanic_rate">100%</string>
+
+    <!--Change Profile Menu-->
+    <string name="change_button">Ubah Profil</string>
+    <string name="forget_button">Ubah Password</string>
+
+    <!--Chat Menu -->
+    <string name="type_message">Masukkan Pesan</string>
+    <string name="send_button">Kirim</string>
+
+
+    <!--Term Condition Menu-->
+    <string name="term_condistion_title">Syarat Dan Ketentuan</string>
+    <string name="term_condition_content">Syarat &amp; Ketentuan yang ditetapkan di bawah ini mengatur pemakaian jasa yang ditawarkan oleh PT Otoklix Indonesia terkait penggunaan situs www.otoklix.com. Pengguna disarankan membaca dengan saksama karena dapat berdampak kepada hak dan kewajiban Pengguna di bawah hukum.Dengan mendaftar dan/atau menggunakan situs www.otoklix.com, maka Pengguna dianggap telah membaca, mengerti, memahami, dan menyetujui semua isi dalam Syarat &amp; Ketentuan. Syarat &amp; Ketentuan ini merupakan bentuk kesepakatan yang dituangkan dalam sebuah perjanjian yang sah antara Pengguna dengan Otoklix. Jika Pengguna tidak menyetujui salah satu, sebagian, atau seluruh isi Syarat &amp; Ketentuan ini, maka Pengguna tidak diperkenankan untuk menggunakan layanan di</string>
+
+    <!--Privacy Policy Menu-->
+    <string name="privacy_policy_title">Kebijakan Privasi</string>
+    <string name="privacy_policy_content">Syarat &amp; Ketentuan yang ditetapkan di bawah ini mengatur pemakaian jasa yang ditawarkan oleh PT Otoklix Indonesia terkait penggunaan situs www.otoklix.com. Pengguna disarankan membaca dengan saksama karena dapat berdampak kepada hak dan kewajiban Pengguna di bawah hukum.Dengan mendaftar dan/atau menggunakan situs www.otoklix.com, maka Pengguna dianggap telah membaca, mengerti, memahami, dan menyetujui semua isi dalam Syarat &amp; Ketentuan. Syarat &amp; Ketentuan ini merupakan bentuk kesepakatan yang dituangkan dalam sebuah perjanjian yang sah antara Pengguna dengan Otoklix. Jika Pengguna tidak menyetujui salah satu, sebagian, atau seluruh isi Syarat &amp; Ketentuan ini, maka Pengguna tidak diperkenankan untuk menggunakan layanan di</string>
+</resources>

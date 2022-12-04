@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view_mechanic"
+
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    card_view:cardElevation="20dp"
+    card_view:cardPreventCornerOverlap="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/previewMontir"
+            android:layout_width="107dp"
+            android:layout_height="110dp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.0"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/mechanic" />
+
+        <TextView
+            android:id="@+id/tv_name_montir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/black"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.033"
+            card_view:layout_constraintStart_toEndOf="@+id/previewMontir"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.078"
+            tools:text="@string/mechanic_name" />
+
+        <TextView
+            android:id="@+id/tv_location_montir"
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@color/black"
+            android:textSize="8sp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.029"
+            card_view:layout_constraintStart_toEndOf="@+id/previewMontir"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.348"
+            tools:text="@string/mechanic_location" />
+
+        <ImageView
+            android:id="@+id/previewImageCause"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            card_view:layout_constraintStart_toEndOf="@+id/previewMontir"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_location_montir"
+            card_view:srcCompat="@drawable/ic_baseline_work_24" />
+
+        <TextView
+            android:id="@+id/tv_age_montir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            card_view:layout_constraintStart_toEndOf="@+id/previewImageCause"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_location_montir"
+            tools:text="@string/mechanic_age" />
+
+        <ImageView
+            android:id="@+id/previewRating"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            card_view:layout_constraintStart_toEndOf="@+id/tv_age_montir"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_location_montir"
+            android:src="@drawable/ic_baseline_thumb_up_24" />
+
+        <TextView
+            android:id="@+id/tv_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/mechanic_rate"
+            android:textColor="@color/black"
+            android:textSize="10dp"
+            card_view:layout_constraintStart_toEndOf="@+id/previewRating"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_location_montir" />
+
+        <TextView
+            android:id="@+id/tv_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/detail"
+            android:textColor="@color/menu_color"
+            android:textSize="12dp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.771"
+            card_view:layout_constraintStart_toEndOf="@+id/previewMontir"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_age_montir"
+            card_view:layout_constraintVertical_bias="0.68" />
+
+        <ImageView
+            android:id="@+id/previewNext"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            card_view:layout_constraintStart_toEndOf="@+id/tv_details"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_age_montir"
+            card_view:srcCompat="@drawable/ic_baseline_keyboard_double_arrow_right_24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
