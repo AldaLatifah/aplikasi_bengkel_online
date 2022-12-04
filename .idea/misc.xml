@@ -14,6 +14,7 @@
         <entry key="app/src/main/res/drawable/friend_bubble_shape.xml" value="0.1575" />
         <entry key="app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1205" />
         <entry key="app/src/main/res/drawable/my_bubble_shape.xml" value="0.1575" />
+        <entry key="app/src/main/res/layout/activity_article.xml" value="0.16927083333333334" />
         <entry key="app/src/main/res/layout/activity_change_profile.xml" value="0.14895833333333333" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_crane.xml" value="0.1" />
@@ -44,6 +45,7 @@
         <entry key="app/src/main/res/layout/item_row_menu.xml" value="0.4819264729817708" />
         <entry key="app/src/main/res/layout/item_row_message.xml" value="0.4536260769161839" />
         <entry key="app/src/main/res/layout/item_row_profile_menu.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/item_row_promo.xml" value="0.16927083333333334" />
         <entry key="app/src/main/res/layout/item_row_service_station.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/menu/menu_chat.xml" value="0.23489583333333333" />
       </map>
