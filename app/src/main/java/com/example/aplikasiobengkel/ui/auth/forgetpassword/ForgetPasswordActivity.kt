@@ -3,6 +3,7 @@ package com.example.aplikasiobengkel.ui.auth.forgetpassword
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import com.example.aplikasiobengkel.R
 import com.example.aplikasiobengkel.data.model.User
@@ -67,7 +68,8 @@ class ForgetPasswordActivity : AppCompatActivity() {
 
         viewModel.account.observe(this) {
             if (it != null) {
-                viewModel.updatePassword(it.email, it.password)
+                val pass = binding.txtPassword.text.toString()
+                viewModel.updatePassword(it.email, pass)
 
                 val registerIntent = Intent(this, LoginActivity::class.java)
                 startActivity(registerIntent)

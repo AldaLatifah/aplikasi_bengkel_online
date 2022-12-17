@@ -11,9 +11,11 @@ interface UserDao {
     @Query("SELECT * FROM user WHERE email LIKE :email")
     fun getUsername(email: String):User
 
-    @Update
+    @Update(onConflict = OnConflictStrategy.REPLACE)
     fun update(user: User)
 
     @Query("UPDATE user SET password =:password  WHERE email =:email")
     fun updatePassword(email: String, password:String)
+
+
 }

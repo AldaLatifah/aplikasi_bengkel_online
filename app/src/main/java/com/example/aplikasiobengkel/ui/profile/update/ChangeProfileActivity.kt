@@ -13,6 +13,8 @@ import com.example.aplikasiobengkel.databinding.ActivityCreateCraneBinding
 import com.example.aplikasiobengkel.ui.auth.login.LoginActivity
 import com.example.aplikasiobengkel.ui.auth.login.LoginViewModel
 import com.example.aplikasiobengkel.ui.auth.login.LoginViewModelFactory
+import com.example.aplikasiobengkel.ui.main.MainActivity
+import com.example.aplikasiobengkel.ui.profile.ProfileActivity
 
 class ChangeProfileActivity : AppCompatActivity() {
 
@@ -23,7 +25,6 @@ class ChangeProfileActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_change_profile)
 
         binding = ActivityChangeProfileBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -48,6 +49,7 @@ class ChangeProfileActivity : AppCompatActivity() {
             val telp = binding.editTextTelp.text.toString().trim()
             val email = binding.editTextEmail.text.toString().trim()
             val password = binding.editTextPassword.text.toString().trim()
+            val id = user?.id
 
             when{
                 name.isEmpty() -> {
@@ -68,15 +70,21 @@ class ChangeProfileActivity : AppCompatActivity() {
 
                 else -> {
                     try{
-                        viewModel.update(
+                        id?.let { it1 ->
                             User(
                                 name,
                                 username,
                                 telp,
                                 email,
-                                password
+                                password,
+                                it1
+
                             )
-                        )
+                        }?.let { it2 ->
+                            viewModel.update(
+                                it2
+                            )
+                        }
                         Toast.makeText(
                             this, name,
                             Toast.LENGTH_SHORT

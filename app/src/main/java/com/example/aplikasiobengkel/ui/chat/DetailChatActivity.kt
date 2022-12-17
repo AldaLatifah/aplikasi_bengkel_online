@@ -96,6 +96,7 @@ class DetailChatActivity : AppCompatActivity() {
             setCancelable(false)
             setPositiveButton(getString(R.string.yes)) { _, _ ->
                 chat?.to_name?.let { viewModel.delete(it) }
+
                 finish()
             }
             setNegativeButton(getString(R.string.no)) { dialog, _ -> dialog.cancel() }

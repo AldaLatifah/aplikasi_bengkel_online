@@ -30,8 +30,9 @@ class UserRepository(application: Application)  {
         userDao.update(user)
     }
 
-     fun updatePassword(email: String, password : String){
+     suspend fun updatePassword(email: String, password : String) = withContext(Dispatchers.IO){
         userDao.updatePassword(email, password)
+         print(userDao.updatePassword(email, password))
     }
 
 

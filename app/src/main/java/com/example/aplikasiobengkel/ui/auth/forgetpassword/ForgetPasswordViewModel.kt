@@ -25,4 +25,10 @@ class ForgetPasswordViewModel (application: Application) : ViewModel() {
             repository.updatePassword(email, password)
         }
     }
+
+    fun update(accounts: User) {
+        viewModelScope.launch {
+            repository.update(accounts)
+        }
+    }
 }

@@ -38,6 +38,10 @@ object Data {
 
     fun getProfileCategory() : Map<String, Profile>{
         return mapOf(
+            CHANGE_PROFILE to Profile(
+                thumbnail = R.drawable.ic_baseline_profile_edit,
+                title = Strings.get(R.string.profile_edit)
+            ),
             TERM_CONDITIONS_MENU to Profile(
                 thumbnail = R.drawable.ic_baseline_term_condition,
                 title = Strings.get(R.string.term_condition)
@@ -49,6 +53,10 @@ object Data {
             CONTACT_US_MENU to Profile(
                 thumbnail = R.drawable.ic_baseline_contact_us,
                 title = Strings.get(R.string.contact_us)
+            ),
+            CRITICISM_SUGGESTIONS_FORM to Profile(
+                    thumbnail = R.drawable.ic_baseline_profile_edit,
+            title = Strings.get(R.string.criticism_suggestions)
             )
         )
 
@@ -189,7 +197,8 @@ object Data {
     const val CHAT_MENU = "chat_menu"
     const val HISTORY_MENU = "history_menu"
     const val PROMO_MENU = "promo_menu"
-    const val CHANGE_PROFILE_MENU = "change_profile_menu"
+    const val CHANGE_PROFILE = "change_profile"
+    const val CRITICISM_SUGGESTIONS_FORM = "criticism_suggestions_form"
     const val TERM_CONDITIONS_MENU = "term_conditions_menu"
     const val PRIVACY_POLICY_MENU = "privacy_policy_menu"
     const val CONTACT_US_MENU = "contact_us_menu"

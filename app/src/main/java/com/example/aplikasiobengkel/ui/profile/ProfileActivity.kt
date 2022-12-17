@@ -57,14 +57,22 @@ class ProfileActivity : AppCompatActivity() {
 
     private fun setupLayout() {
         binding.apply {
+            setupModuleCard(Data.CHANGE_PROFILE, changeProfile)
             setupModuleCard(Data.TERM_CONDITIONS_MENU, termCondition)
             setupModuleCard(Data.PRIVACY_POLICY_MENU, privacyPolicy)
             setupModuleCard(Data.CONTACT_US_MENU, contactUs)
+            setupModuleCard(Data.CRITICISM_SUGGESTIONS_FORM, criticismForm)
         }
     }
 
     private fun setupAction(){
         binding.apply {
+            changeProfile.cardViewProfile.setOnClickListener{
+                val person = intent.getParcelableExtra<User>(EXTRA_USER) as User
+                val intent = Intent(this@ProfileActivity, ChangeProfileActivity::class.java)
+                intent.putExtra(ChangeProfileActivity.EXTRA_USER,person )
+                startActivity(intent)
+            }
             termCondition.cardViewProfile.setOnClickListener{
                 val intent = Intent(this@ProfileActivity, TermConditionActivity::class.java)
                 startActivity(intent)
@@ -75,6 +83,10 @@ class ProfileActivity : AppCompatActivity() {
             }
             contactUs.cardViewProfile.setOnClickListener {
                 val intent = Intent(this@ProfileActivity, ContactUsActivity::class.java)
+                startActivity(intent)
+            }
+            criticismForm.cardViewProfile.setOnClickListener{
+                val intent = Intent(this@ProfileActivity, CriticismFormActivity::class.java)
                 startActivity(intent)
             }
         }

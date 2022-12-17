@@ -64,6 +64,7 @@
     <string name="term_condition">Syarat dan Ketentuan</string>
     <string name="privacy_policy">Kebijakan Privasi</string>
     <string name="contact_us">Hubungi Kami</string>
+    <string name="criticism_suggestions">Form Kritik dan Saran</string>
 
     <!--Article Menu-->
     <string name="article_title">Digitalisasi Otomotif</string>
@@ -102,4 +103,7 @@
     <string name="email_contact_us">obengkel@gmail.com</string>
     <string name="instagram_contact_us">o.bengkel</string>
     <string name="telp_contact_us">+628910281910</string>
+
+    <string name="kritik_saran">Kritik / Saran</string>
+    <string name="kritik_saran_button">Kirim</string>
 </resources>
